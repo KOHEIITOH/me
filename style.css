@@ -1,0 +1,159 @@
+@charaset"utf-8";
+body{
+    margin: 0;
+    padding: 0;
+}
+div.main{
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+}
+/*HEADER*/
+h1#page-top{
+    text-align: center;
+    font-family: serif;
+    padding-top: 30px;
+    margin: 0;
+    color: #000;
+}
+nav.naver{
+    color: #000;
+}
+h3#link{
+    text-align: center;
+    font-family: serif;
+    color: #222;
+}
+a.link{
+    color : #000;
+    margin: 20px 30px 20px 30px;
+    font-family: serif;
+    font-size: 18px;
+    text-decoration : none;
+}
+a.link:hover{
+    color : #999;
+    margin: 20px 30px 20px 30px;
+    font-family: serif;
+    text-decoration : none;
+}
+.koheipic{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*MAIN*/
+div#about{
+    background-color: #FFFFFF;
+    padding: 150px 0 150px 0;
+}
+h1.about{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
+div#skill{
+    background-color: #FAFAFA;
+    padding: 150px 0 150px 0;
+}
+h1.skill{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
+div#idea{
+    background-color: #FFFFFF;
+    padding: 150px 0 150px 0;
+}
+h1.idea{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
+p.ideal{
+
+}
+h3.idea{
+    text-align: center;
+    font-family: serif;
+}
+a.IDEA{
+    text-decoration: none;
+    color: #777;
+}
+a.IDEA:hover{
+    text-decoration: none;
+    color: #000;
+}
+div#design{
+    background-color: #FAFAFA;
+    padding: 150px 0 150px 0;
+
+}
+h1.design{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
+img.designpic{
+    width: 200px;
+    height: 200px;
+    padding: 2%;
+}
+div.designdiv{
+    margin: 0 24% 0 24%;
+}
+div#contact{
+    background-color: #FFFFFF;
+    padding: 150px 0 150px 0;
+}
+h1.contact{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+}
+/* FOOTER*/
+a#top{
+	color: #aaa;
+	font-size: 36px;
+	position: fixed;
+	bottom: 1%;
+	right: 1%;
+	text-decoration: none;
+}
+a#top:hover{
+	color: #aaa;
+	font-size: 40px;
+	position: fixed;
+	bottom: 1%;
+	right: 1%;
+	text-decoration: none;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* position: absolute;/*←絶対位置*/
+    background-color: #222;
+}
+footer p{
+    color: #fff;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+
+}
