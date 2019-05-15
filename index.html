@@ -6,36 +6,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>KOHEI ITOH(伊藤光平)</title>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="maincss/KoheiPortfolio.css">
 
+
+        <!-- BootstrapのCSS読み込み -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- jQuery読み込み -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- BootstrapのJS読み込み -->
+        <script src="js/bootstrap.min.js"></script>
+
+
+        <script type="text/javascript" src="mainjs/script.js"></script>
     </head>
 
-    <body>
+    <body onLoad="Wscroll">
         <div class="main">
             <h1 id="page-top">K O H E I　I T O H</h1>
 
-            <img class="koheipic" src="wide.jpg">
+            <img class="pic" src="wide.jpg">
 
             <div id="about">
                 <h1 class="about">ABOUT</h1>
-                <p>Profile.</p>
+                <p class="sub">Profile.</p>
                 <br>
-                <p> 伊藤　光平<br>（イトウ　コウヘイ）</p>
+                <p> 伊藤 光平<br>（イトウ コウヘイ）</p>
                 <p>1998年3月9日生まれ</p>
                 <p>A型</p>
                 <p>埼玉県出身</p>
             </div>
 
+
             <div id="skill">
                 <h1 class="skill">SKILL</h1>
-                <p>Include the low skill.</p>
+                <p class="sub">Include the low skill.</p>
+                <h3 class="language">Machine Language</h3>
+                <p class="serif">|　HTML　|　CSS　|　JavaScript　|　PHP　|　Java　|　C（Visual）　|　SQL　|</p>
                 <br>
-                <p>|　HTML　|　CSS　|　JavaScript　|　PHP　|　Java　|　C　|　SQL　|</p>
+                <h3 class="language">Natural Language</h3>
+                <p class="serif">|　Japanese　|　English　|</p>
             </div>
+
 
             <div id="idea">
                 <h1 class="idea">IDEA</h1>
-                <p>Only as for the ideal idea.</p>
+                <p class="sub">Only as for the ideal idea here.</p>
                 <br>
                 <h3 class="idea"><a class="IDEA" href="./idea/yumemo.html">YUMEMO</a></h3>
                 <h3 class="idea"><a class="IDEA" href="./idea/roborobo.html">ガチャガチャロボ</a></h3>
@@ -43,23 +58,11 @@
                 <h3 class="idea"><a class="IDEA" href="./idea/.html">人工大樹</a></h3>
             </div>
 
-            <div id="design">
-                <h1 class="design">DESIGN</h1>
-                <p>Mainly only as for the 2D MarkDesign.</p>
-                <br>
-
-                <div class="designdiv">
-                    <img class="designpic" src="K.jpg">
-                    <img class="designpic" src="1.jpg">
-                    <img class="designpic" src="2.jpg">
-                </div>
-            </div>
 
             <div id="contact">
                 <h1 class="contact">CONTACT</h1>
                 <br>
                 <p>E-mail : kochan.3939@gmail.com</p>
-
             </div>
 
             <a class="navbar-brand js-scroll-trigger" href="#page-top" id="top">↑</a> <!-- ページトップに戻る-->
