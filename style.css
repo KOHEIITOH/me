@@ -26,19 +26,6 @@ a#menu{
     color: #222;
     text-decoration : none;
 }
-/* a.link{
-    color : #000;
-    margin: 20px 30px 20px 30px;
-    font-family: serif;
-    font-size: 18px;
-    text-decoration : none;
-}
-a.link:hover{
-    color : #999;
-    margin: 20px 30px 20px 30px;
-    font-family: serif;
-    text-decoration : none;
-} */
 img.pic{
     width: 100%;
     margin: 0;
@@ -73,6 +60,9 @@ h1.skill{
 h3.language{
     text-align: center;
     color: #808080;
+}
+div.machinelanguage{
+    margin: 0 6% 0 6%;
 }
 div#idea{
     background-color: #FFFFFF;
