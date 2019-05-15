@@ -10,20 +10,23 @@ div.main{
 /*HEADER*/
 h1#page-top{
     text-align: center;
+    font-size: 24px;
     font-family: serif;
     padding: 30px;
     margin: 0;
     color: #000;
 }
-nav.naver{
-    color: #000;
+ul {
+	list-style-type: none;
+	padding-left: 0;
 }
-h3#link{
+a#menu{
     text-align: center;
     font-family: serif;
     color: #222;
+    text-decoration : none;
 }
-a.link{
+/* a.link{
     color : #000;
     margin: 20px 30px 20px 30px;
     font-family: serif;
@@ -35,8 +38,8 @@ a.link:hover{
     margin: 20px 30px 20px 30px;
     font-family: serif;
     text-decoration : none;
-}
-.koheipic{
+} */
+img.pic{
     width: 100%;
     margin: 0;
     padding: 0;
@@ -45,7 +48,7 @@ a.link:hover{
 /*MAIN*/
 div#about{
     background-color: #FFFFFF;
-    padding: 150px 0 150px 0;
+    padding: 100px 0 100px 0;
 }
 h1.about{
     padding: 0;
@@ -53,10 +56,11 @@ h1.about{
     text-align: center;
     font-family: serif;
     font-weight: bold;
+    font-size: 24px;
 }
 div#skill{
     background-color: #FAFAFA;
-    padding: 150px 0 150px 0;
+    padding: 100px 0 100px 0;
 }
 h1.skill{
     padding: 0;
@@ -64,10 +68,15 @@ h1.skill{
     text-align: center;
     font-family: serif;
     font-weight: bold;
+    font-size: 24px;
+}
+h3.language{
+    text-align: center;
+    color: #808080;
 }
 div#idea{
     background-color: #FFFFFF;
-    padding: 150px 0 150px 0;
+    padding: 100px 0 100px 0;
 }
 h1.idea{
     padding: 0;
@@ -75,9 +84,7 @@ h1.idea{
     text-align: center;
     font-family: serif;
     font-weight: bold;
-}
-p.ideal{
-
+    font-size: 24px;
 }
 h3.idea{
     text-align: center;
@@ -91,29 +98,9 @@ a.IDEA:hover{
     text-decoration: none;
     color: #000;
 }
-div#design{
-    background-color: #FAFAFA;
-    padding: 150px 0 150px 0;
-
-}
-h1.design{
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    font-family: serif;
-    font-weight: bold;
-}
-img.designpic{
-    width: 200px;
-    height: 200px;
-    padding: 2%;
-}
-div.designdiv{
-    margin: 0 24% 0 24%;
-}
 div#contact{
-    background-color: #FFFFFF;
-    padding: 150px 0 150px 0;
+    background-color: #FAFAFA;
+    padding: 100px 0 100px 0;
 }
 h1.contact{
     padding: 0;
@@ -121,9 +108,18 @@ h1.contact{
     text-align: center;
     font-family: serif;
     font-weight: bold;
+    font-size: 24px;
 }
 p{
     text-align: center;
+}
+p.sub{
+    color: 	#BBBBBB;
+    font-style: italic;
+    font-family: serif;
+}
+p.serif{
+    font-family: serif;
 }
 /* FOOTER*/
 a#top{
