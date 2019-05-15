@@ -43,7 +43,7 @@ h1.about{
     text-align: center;
     font-family: serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
 }
 div#skill{
     background-color: #FAFAFA;
@@ -55,7 +55,7 @@ h1.skill{
     text-align: center;
     font-family: serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
 }
 h3.language{
     text-align: center;
@@ -74,7 +74,7 @@ h1.idea{
     text-align: center;
     font-family: serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
 }
 h3.idea{
     text-align: center;
@@ -98,7 +98,7 @@ h1.contact{
     text-align: center;
     font-family: serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
 }
 p{
     text-align: center;
