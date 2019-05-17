@@ -16,16 +16,6 @@ h1#page-top{
     margin: 0;
     color: #000;
 }
-ul {
-	list-style-type: none;
-	padding-left: 0;
-}
-a#menu{
-    text-align: center;
-    font-family: serif;
-    color: #222;
-    text-decoration : none;
-}
 img.pic{
     width: 100%;
     margin: 0;
@@ -62,7 +52,7 @@ h3.language{
     color: #808080;
 }
 div.machinelanguage{
-    margin: 0 6% 0 6%;
+    margin: 0 5% 0 5%;
 }
 div#idea{
     background-color: #FFFFFF;
@@ -104,7 +94,7 @@ p{
     text-align: center;
 }
 p.sub{
-    color: 	#BBBBBB;
+    color: #AAAAAA;
     font-style: italic;
     font-family: serif;
 }
@@ -137,7 +127,7 @@ footer{
 }
 footer p{
     color: #fff;
-    padding: 30px;
+    padding: 20px;
     margin: 0;
     text-align: center;
     font-family: serif;
