@@ -35,6 +35,10 @@ h1.about{
     font-weight: bold;
     font-size: 28px;
 }
+#about .profile {
+    text-align: center;
+    font-family: serif;
+}
 div#skill{
     background-color: #FAFAFA;
     padding: 100px 0 100px 0;
