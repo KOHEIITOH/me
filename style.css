@@ -109,6 +109,7 @@ p.serif{
 a#top{
 	color: #aaa;
 	font-size: 36px;
+	font-family: serif;
 	position: fixed;
 	bottom: 1%;
 	right: 1%;
@@ -117,6 +118,7 @@ a#top{
 a#top:hover{
 	color: #aaa;
 	font-size: 40px;
+	font-family: serif;
 	position: fixed;
 	bottom: 1%;
 	right: 1%;
