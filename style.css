@@ -73,14 +73,7 @@ h1.idea{
 h3.idea{
     text-align: center;
     font-family: serif;
-}
-a.IDEA{
-    text-decoration: none;
     color: #777;
-}
-a.IDEA:hover{
-    text-decoration: none;
-    color: #000;
 }
 div#contact{
     background-color: #FAFAFA;
