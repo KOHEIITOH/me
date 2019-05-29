@@ -30,7 +30,6 @@ img.pic{
 
 /*MAIN*/
 div#about{
-    background-color: #FFFFFF;
     padding: 100px 0 100px 0;
 }
 h1.about{
@@ -46,7 +45,6 @@ h1.about{
     font-family: serif;
 }
 div#skill{
-    background-color: #FAFAFA;
     padding: 100px 0 100px 0;
 }
 h1.skill{
@@ -65,7 +63,6 @@ div.machinelanguage{
     margin: 0 5% 0 5%;
 }
 div#idea{
-    background-color: #FFFFFF;
     padding: 100px 0 100px 0;
 }
 h1.idea{
@@ -82,7 +79,6 @@ h3.idea{
     color: #777;
 }
 div#contact{
-    background-color: #FFFFFF;
     padding: 100px 0 100px 0;
 }
 h1.contact{
