@@ -2,6 +2,12 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #fff;
+    background-image: url(texture.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 div.main{
     min-height: 100vh;
