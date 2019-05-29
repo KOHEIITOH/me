@@ -12,7 +12,7 @@ div.main{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto 100%;
 }
 /*HEADER*/
 h1#page-top{
