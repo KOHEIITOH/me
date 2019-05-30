@@ -96,15 +96,6 @@ a#top{
 	right: 1%;
 	text-decoration: none;
 }
-a#top:hover{
-	color: #aaa;
-	font-size: 40px;
-	font-family: serif;
-	position: fixed;
-	bottom: 1%;
-	right: 1%;
-	text-decoration: none;
-}
 footer{
     margin: 0;
     padding: 0;
