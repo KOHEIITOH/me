@@ -3,9 +3,6 @@ body{
     margin: 0;
     padding: 0;
     background-color: #fff;
-}
-div.main{
-    background-color: #fff;
     background-image: url(texture.jpg);
     background-repeat: no-repeat;
     background-position: center center;
