@@ -5,16 +5,15 @@ body{
     background-color: #fff;
 }
 div.main{
-    min-height: 100vh;
-    position: relative;/*←相対位置*/
     background-color: #fff;
     background-image: url(texture.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: cover;
 }
-/*HEADER*/
+
+/*全体*/
 h1#page-top{
     text-align: center;
     font-size: 24px;
@@ -28,51 +27,13 @@ img.pic{
     margin: 0;
     padding: 0;
 }
-
-/*MAIN*/
-div#about{
-    padding: 100px 0 100px 0;
-}
-h1.about{
+h1.tit{
     padding: 0;
     margin: 0;
     text-align: center;
     font-family: serif;
     font-weight: bold;
-    font-size: 28px;
-}
-#about .profile {
-    text-align: center;
-    font-family: serif;
-}
-div#skill{
-    padding: 100px 0 100px 0;
-}
-h1.skill{
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    font-family: serif;
-    font-weight: bold;
-    font-size: 28px;
-}
-h3.language{
-    text-align: center;
-    color: #808080;
-}
-div.machinelanguage{
-    margin: 0 5% 0 5%;
-}
-div#contact{
-    padding: 100px 0 100px 0;
-}
-h1.contact{
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    font-family: serif;
-    font-weight: bold;
-    font-size: 28px;
+    font-size: 34px;
 }
 p{
     text-align: center;
@@ -85,6 +46,46 @@ p.sub{
 p.serif{
     font-family: serif;
 }
+
+/*MAIN*/
+div#about{
+    padding: 100px 0 100px 0;
+}
+#about .profile {
+    text-align: center;
+    font-family: serif;
+}
+div#skill{
+    padding: 100px 0 100px 0;
+}
+h3.language{
+    text-align: center;
+    color: #808080;
+}
+div.machinelanguage{
+    margin: 0 5% 0 5%;
+}
+div#contact{
+    padding: 100px 0 100px 0;
+}
+#contact a{
+    text-decoration: none;
+    color: #444;
+    text-align: center;
+}
+#contact img{
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    float: none;
+}
+#contact .mail {
+    text-align: center;
+    font-family: serif;
+    font-size: 18px;
+    margin: 0;
+}
+
 /* FOOTER*/
 a#top{
 	color: #aaa;
