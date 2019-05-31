@@ -74,6 +74,7 @@ h3.language{
     font-size: 22px;
 }
 #skill div.machinelanguage{
+    display: block;
     margin: 0 5% 0 5%;
 }
 #skill a{
