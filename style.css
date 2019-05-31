@@ -68,6 +68,8 @@ div#skill{
 h3.language{
     text-align: center;
     color: #808080;
+    font-family: serif;
+    font-size: 22px;
 }
 div.machinelanguage{
     margin: 0 5% 0 5%;
