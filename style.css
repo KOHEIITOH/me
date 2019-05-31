@@ -60,6 +60,10 @@ div#about{
     text-align: center;
     width: 150px;
 }
+#about a{
+    color: #111;
+    text-decoration: none;
+}
 
 
 /* SKILL */
