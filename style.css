@@ -10,7 +10,7 @@ body{
     background-size: cover;
 }
 
-/*全体*/
+/* 全体 */
 h1#page-top{
     text-align: center;
     font-size: 24px;
@@ -47,7 +47,7 @@ p.serif{
     font-family: serif;
 }
 
-/*MAIN*/
+/* ABOUT */
 div#about{
     padding: 100px 0 100px 0;
 }
@@ -62,6 +62,8 @@ div#about{
     text-align: center;
     width: 150px;
 }
+
+/* SKILL */
 div#skill{
     padding: 100px 0 100px 0;
 }
@@ -71,9 +73,19 @@ h3.language{
     font-family: serif;
     font-size: 22px;
 }
-div.machinelanguage{
+#skill div.machinelanguage{
     margin: 0 5% 0 5%;
 }
+#skill a{
+    color: #222;
+    text-decoration: none;
+}
+#skill p{
+    text-align: center;
+    font-family: serif;
+}
+
+/* CONTACT */
 div#contact{
     padding: 100px 0 100px 0;
 }
@@ -109,7 +121,6 @@ footer{
     margin: 0;
     padding: 0;
     width: 100%;
-    /* position: absolute;/*←絶対位置*/
     background-color: #222;
 }
 footer p{
