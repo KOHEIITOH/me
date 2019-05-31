@@ -43,9 +43,7 @@ p.sub{
     font-size: 18px;
     margin-top: 0;
 }
-p.serif{
-    font-family: serif;
-}
+
 
 /* ABOUT */
 div#about{
@@ -63,15 +61,18 @@ div#about{
     width: 150px;
 }
 
+
 /* SKILL */
 div#skill{
     padding: 100px 0 100px 0;
 }
-h3.language{
+#skill h3.language{
+    display: block;
     text-align: center;
     color: #808080;
     font-family: serif;
     font-size: 22px;
+    margin: 2em 0 1em 0;
 }
 #skill div.machinelanguage{
     display: block;
@@ -85,6 +86,7 @@ h3.language{
     text-align: center;
     font-family: serif;
 }
+
 
 /* CONTACT */
 div#contact{
