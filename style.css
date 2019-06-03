@@ -3,13 +3,15 @@ body{
     margin: 0;
     padding: 0;
     background-color: #eee;
-    background-image: url(texture.jpg);
+/*     background-image: url(texture.jpg); */
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
 }
 body:before{
+  margin: 0;
+  padding: 0;
   content:"";
   display:block;
   position:fixed;
