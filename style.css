@@ -70,7 +70,7 @@ div#about{
     text-align: center;
     width: 260px;
 }
-#about p.profile {
+#about p.profile{
     text-align: center;
     font-family: serif;
     font-size: 20px;
@@ -197,10 +197,10 @@ p.sub{
 div#about{
     padding: 100px 0 100px 0;
 }
-#about .profile {
+#about p.profile{
     text-align: center;
     font-family: serif;
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 50px;
 }
 #about img{
