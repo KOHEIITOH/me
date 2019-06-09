@@ -3,12 +3,13 @@ body{
     margin: 0;
     padding: 0;
     background-color: #eee;
-/*     background-image: url(texture.jpg); */
+    background-image: url(texture.jpg); 
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
 }
+
 body:before{
   margin: 0;
   padding: 0;
@@ -24,7 +25,140 @@ body:before{
   background-size:cover;
 }
 
+/* HEADER */
+h1#header{
+    text-align: center;
+    font-size: 54px;
+    font-family: serif;
+    padding: 20px;
+    margin: 0;
+    color: #000;
+}
+img.pic{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /* 全体 */
+h1.tit{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 54px;
+}
+p.sub{
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    font-family: serif;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+
+/* ABOUT */
+div#about{
+    padding: 100px 0 100px 0;
+    margin: 0 auto;
+}
+#about img{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 260px;
+}
+#about p.profile {
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 80px;
+}
+#about.contact-text{
+    text-align: center;
+}
+#about a{
+    color: #111;
+    text-decoration: none;
+}
+
+
+/* SKILL */
+div#skill{
+    padding: 100px 0 100px 0;
+    margin: 0;
+}
+#skill h3.language{
+    display: block;
+    text-align: center;
+    color: #808080;
+    font-family: serif;
+    font-size: 40px;
+    margin: 2em 0 1em 0;
+}
+#skill div.machinelanguage{
+    display: block;
+    margin: 0 5% 0 5%;
+}
+#skill a{
+    color: #222;
+    text-decoration: none;
+}
+#skill .machinelanguage p{
+    text-align: center;
+    font-family: serif;
+    font-size: 28px;
+}
+
+
+/* CONTACT */
+div#contact{
+    padding: 100px 0 200px 0;
+    margin: 0;
+}
+#contact a{
+    text-decoration: none;
+    color: #444;
+    text-align: center;
+}
+#contact img{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    float: none;
+}
+#contact .mail {
+    text-align: center;
+    font-family: serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+/* FOOTER*/
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #222;
+}
+footer p{
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    font-size: 18px;
+}
+
+
+
+/* タブレット　スマホ */
+@media screen and (max-width: 767px) {
+
+/* Header */
 h1#header{
     text-align: center;
     font-size: 24px;
@@ -38,6 +172,9 @@ img.pic{
     margin: 0;
     padding: 0;
 }
+
+
+/* 全体 */
 h1.tit{
     padding: 0;
     margin: 0;
@@ -63,6 +200,7 @@ div#about{
 #about .profile {
     text-align: center;
     font-family: serif;
+    font-size: 15px;
     margin-top: 50px;
 }
 #about img{
@@ -97,7 +235,7 @@ div#skill{
     color: #222;
     text-decoration: none;
 }
-#skill p{
+#skill .machinelanguage p{
     text-align: center;
     font-family: serif;
     font-size: 20px;
@@ -127,15 +265,6 @@ div#contact{
 }
 
 /* FOOTER */
-a#top{
-	color: #aaa;
-	font-size: 36px;
-	font-family: serif;
-	position: fixed;
-	bottom: 1%;
-	right: 1%;
-	text-decoration: none;
-}
 footer{
     margin: 0;
     padding: 0;
@@ -150,3 +279,5 @@ footer p{
     font-family: serif;
     font-size: 14px;
 }
+	
+}/* media screen */
