@@ -261,6 +261,18 @@ div#skill{
     font-family: serif;
     font-size: 20px;
 }
+	
+/* PHILOSOPHY */
+div#philosophy{
+    padding: 100px 0 200px 0;
+}
+#philosophy .word{
+    display: block;
+    text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    margin: 1em 0 1em 0;
+}
 
 
 /* CONTACT */
