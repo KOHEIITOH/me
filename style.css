@@ -296,13 +296,13 @@ div#contact{
     width: 50px;
     float: none;
 }
-#contact .mg {
+#contact .dm{
     text-align: center;
     font-family: serif;
     font-size: 18px;
     margin: 0;
 }
-#contact .dm{
+#contact .mg{
     font-size: 10px;
 }
 
