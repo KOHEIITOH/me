@@ -293,7 +293,7 @@ div#contact{
 #contact img{
     display: block;
     margin: 0 auto;
-    width: 50px;
+    width: 80px;
     float: none;
 }
 #contact .dm{
@@ -303,7 +303,7 @@ div#contact{
     margin: 0;
 }
 #contact .mg{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 /* FOOTER */
