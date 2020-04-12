@@ -188,9 +188,9 @@ body{
 /* Header */
 h1#header{
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     font-family: serif;
-    padding: 30px;
+    padding: 25px;
     margin: 0;
     color: #000;
 }
