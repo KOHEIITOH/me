@@ -117,47 +117,23 @@ div#skill{
 }
 
 
-/* PHILOSOPHY */
-div#philosophy{
-    padding: 100px 0 200px 0;
+/* PRODUCT */
+div#product{
+    padding: 100px 0 100px 0;
     margin: 0;
 }
-#philosophy .word{
+#product div.deliverables{
     display: block;
-    text-align: center;
-    font-family: serif;
-    font-size: 20px;
-    margin: 1em 0 1em 0;
+    margin: 0 5% 0 5%;
 }
-
-
-/* CONTACT */
-div#contact{
-    padding: 100px 0 200px 0;
-    margin: 0;
-}
-#contact a{
+#product a{
+    color: #222;
     text-decoration: none;
-    color: #444;
-    text-align: center;
 }
-#contact img{
-    display: block;
-    margin: 0 auto;
-    width: 80px;
-    float: none;
-}
-#contact .dm {
+#product .deliverables p{
     text-align: center;
     font-family: serif;
-    font-size: 18px;
-    margin: 0;
-}
-#contact .mg{
-    text-align: center;
-    font-family: serif;
-    font-size: 14px;
-    margin: 0;
+    font-size: 28px;
 }
 
 
@@ -268,42 +244,23 @@ div#skill{
     font-size: 20px;
 }
 	
-/* PHILOSOPHY */
-div#philosophy{
+/* PRODUCT */
+div#product{
     padding: 100px 0 100px 0;
-}
-#philosophy .word{
-    display: block;
-    text-align: center;
-    font-family: serif;
-    font-size: 14px;
-    margin: 1em 0 1em 0;
-}
-
-
-/* CONTACT */
-div#contact{
-    padding: 100px 0 200px 0;
-}
-#contact a{
-    text-decoration: none;
-    color: #444;
-    text-align: center;
-}
-#contact img{
-    display: block;
-    margin: 0 auto;
-    width: 70px;
-    float: none;
-}
-#contact .dm{
-    text-align: center;
-    font-family: serif;
-    font-size: 18px;
     margin: 0;
 }
-#contact .mg{
-    font-size: 12px;
+#product div.deliverables{
+    display: block;
+    margin: 0 5% 0 5%;
+}
+#product a{
+    color: #222;
+    text-decoration: none;
+}
+#product .deliverables p{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
 }
 
 /* FOOTER */
