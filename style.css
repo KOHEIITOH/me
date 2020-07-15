@@ -5,7 +5,7 @@ body{
     background-color: #eee;
     background-image: url("./img/texture.jpg"); 
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
     font-family: serif, Times New Roman, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif, Times New Roman, serif;
@@ -30,6 +30,10 @@ body:before{
 }
 
 /* HEADER */
+header{
+    margin: 0;
+    padding: 0;
+}
 h1#header{
     text-align: center;
     font-size: 54px;
@@ -45,6 +49,10 @@ header img{
 }
 
 /* 全体 */
+.main{
+    margin: 0;
+    padding: 0;
+}
 h1.tit{
     padding: 0;
     margin: 0;
