@@ -168,9 +168,12 @@ footer p{
 /* タブレット　スマホ */
 @media screen and (max-width: 767px) {
 body{
+    background-color: #eee;
+    background: url("./img/texture.jpg") no-repeat center fixed;
+    background-size: cover;
     line-height: 1.7;
 }
-	
+
 /* Header */
 h1#header{
     text-align: center;
