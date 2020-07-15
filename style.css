@@ -3,8 +3,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #eee;
-    background: url("./img/texture.jpg")no-repeat center top fixed;
     background-size: cover;
+    background: url("./img/texture.jpg")no-repeat center top fixed;
     font-family: serif, Times New Roman, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif, Times New Roman, serif;
     line-height: 1.8;
     letter-spacing: 0.8px;
