@@ -34,7 +34,7 @@ h1#header{
     text-align: center;
     font-size: 54px;
     font-family: serif;
-    padding: 20px;
+    padding: 20px 0;
     margin: 0;
     color: #000;
 }
@@ -171,7 +171,7 @@ h1#header{
     text-align: center;
     font-size: 26px;
     font-family: serif;
-    padding: 25px;
+    padding: 10px 0;
     margin: 0;
     color: #000;
 }
