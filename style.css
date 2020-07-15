@@ -22,7 +22,7 @@ body:before{
   z-index:-1;
   width:100%;
   height:120vh;
-  background:url(./img/texture.jpg) center no-repeat;
+  background:url("./img/texture.jpg") center no-repeat;
   background-size:cover;
 }
 
@@ -168,9 +168,6 @@ footer p{
 /* タブレット　スマホ */
 @media screen and (max-width: 767px) {
 body{
-    background-color: #eee;
-    background: url("./img/texture.jpg") no-repeat center fixed;
-    background-size: cover;
     line-height: 1.7;
 }
 
