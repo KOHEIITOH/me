@@ -66,8 +66,13 @@ p.sub{
     font-size: 28px;
     margin-top: 0;
 }
+.main .banner{
+    margin: 0;
+    padding: 0;
+}
 .main img{
     width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
 }
@@ -203,11 +208,6 @@ p.sub{
     font-family: serif;
     font-size: 18px;
     margin-top: 0;
-}
-.main img{
-    width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 
