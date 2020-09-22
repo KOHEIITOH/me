@@ -67,14 +67,17 @@ p.sub{
     margin-top: 0;
 }
 .main .banner{
-    margin: 0;
     padding: 0;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
 }
 .main img{
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 
 
