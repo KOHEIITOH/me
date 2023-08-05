@@ -154,6 +154,24 @@ div#product{
     font-size: 28px;
 }
 
+/* CONTACT */
+div#contact{
+    padding: 100px 0 100px 0;
+    margin: 0;
+}
+#contact div.forms{
+    display: block;
+    margin: 0 5% 0 5%;
+}
+#contact a{
+    color: #222;
+    text-decoration: none;
+}
+#contact .forms p{
+    text-align: center;
+    font-family: serif;
+    font-size: 28px;
+}
 
 /* FOOTER*/
 footer{
@@ -261,7 +279,7 @@ div#skill{
     font-family: serif;
     font-size: 20px;
 }
-	
+
 /* PRODUCTS */
 div#product{
     padding: 100px 0 100px 0;
@@ -276,6 +294,25 @@ div#product{
     text-decoration: none;
 }
 #product .deliverables p{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+}
+
+/* CONTACT */
+div#contact{
+    padding: 100px 0 100px 0;
+    margin: 0;
+}
+#contact div.forms{
+    display: block;
+    margin: 0 5% 0 5%;
+}
+#contact a{
+    color: #222;
+    text-decoration: none;
+}
+#contact .forms p{
     text-align: center;
     font-family: serif;
     font-size: 20px;
