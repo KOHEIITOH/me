@@ -95,8 +95,7 @@ div#about{
 #about p.profile{
     text-align: center;
     font-family: serif;
-    font-size: 24px;
-    margin-top: 80px;
+    font-size: 28px;
 }
 #about.contact-text{
     text-align: center;
@@ -239,14 +238,13 @@ div#about{
 #about p.profile{
     text-align: center;
     font-family: serif;
-    font-size: 18px;
-    margin-top: 50px;
+    font-size: 20px;
 }
 #about img{
     display: block;
     margin: 0 auto;
     text-align: center;
-    width: 150px;
+    width: 160px;
 }
 #about a{
     color: #111;
