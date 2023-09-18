@@ -7,3 +7,20 @@ function clickEvent() {
 
     alert(text);
 }
+
+function confirmEvent() {
+    if(confirm("SECRET ENTRANCE")) {
+        // const request = new XMLHttpRequest();
+ 
+        // request.open('GET', '', true);
+        // request.responseType = 'json';
+        // request.send();
+
+        // request.onload = function () {
+        //     const data = this.response;
+        //     console.log(data);
+        // };
+
+        alert("工事中・・・");
+    }
+}
