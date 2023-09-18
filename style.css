@@ -171,6 +171,9 @@ div#contact{
     font-family: serif;
     font-size: 28px;
 }
+#contact a.secret{
+    color: #999;
+}
 
 /* FOOTER*/
 footer{
