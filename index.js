@@ -47,4 +47,24 @@ window.addEventListener('load', function () {
       alert(text);
     }
   });
+
+
+  // スムーススクロール
+  const scroll_links = document.querySelectorAll('a[href^="#"]');
+
+  scroll_links.forEach((scroll_link) => {
+    scroll_link.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      const href_link = scroll_link.getAttribute("href"),
+            target_content = document.getElementById(href_link.replace("#", "")),
+            header_height = document.querySelector('header').offsetHeight,
+            target_position = target_content.getBoundingClientRect().top + window.scrollY - header_height;
+
+      window.scrollTo({
+        top: target_position,
+        behavior: "smooth",
+      });
+    });
+  });
 });
