@@ -3,15 +3,13 @@ window.addEventListener('load', function () {
         secret_entrance = document.querySelector('.js-secret');
 
   profile_element.addEventListener("click", function() {
-    const lf = "\n";
-    const jp_text = "伊藤 光平（いとう こうへい）" + lf + "1998年3月9日生まれ" + lf + "埼玉県出身";
-    const en_text = "KOHEI ITOH" + lf + "3/9/1998" + lf + "Saitama (JP)";
-
-    const text = jp_text + lf + lf + lf + en_text;
+    const lf = "\n",
+          jp_text = "伊藤 光平（いとう こうへい）" + lf + "1998年3月9日生まれ" + lf + "埼玉県出身",
+          en_text = "KOHEI ITOH" + lf + "3/9/1998" + lf + "Saitama (JP)",
+          text = jp_text + lf + lf + lf + en_text;
 
     alert(text);
   });
-
 
   secret_entrance.addEventListener("click", function() {
     if(!confirm("SECRET ENTRANCE")) {
@@ -36,7 +34,6 @@ window.addEventListener('load', function () {
 
       alert(text);
     };
-
     request.onerror = function() {
       alert(text);
     }
@@ -50,21 +47,21 @@ window.addEventListener('load', function () {
 
 
   // スムーススクロール
-  const scroll_links = document.querySelectorAll('a[href^="#"]');
+  // const scroll_links = document.querySelectorAll('a[href^="#"]');
 
-  scroll_links.forEach((scroll_link) => {
-    scroll_link.addEventListener("click", (e) => {
-      e.preventDefault();
+  // scroll_links.forEach((scroll_link) => {
+  //   scroll_link.addEventListener("click", (e) => {
+  //     e.preventDefault();
 
-      const href_link = scroll_link.getAttribute("href"),
-            target_content = document.getElementById(href_link.replace("#", "")),
-            header_height = document.querySelector('header').offsetHeight,
-            target_position = target_content.getBoundingClientRect().top + window.scrollY - header_height;
+  //     const href_link = scroll_link.getAttribute("href"),
+  //           target_content = document.getElementById(href_link.replace("#", "")),
+  //           header_height = document.querySelector('header').offsetHeight,
+  //           target_position = target_content.getBoundingClientRect().top + window.scrollY - header_height;
 
-      window.scrollTo({
-        top: target_position,
-        behavior: "smooth",
-      });
-    });
-  });
+  //     window.scrollTo({
+  //       top: target_position,
+  //       behavior: "smooth",
+  //     });
+  //   });
+  // });
 });
