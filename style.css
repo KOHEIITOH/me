@@ -134,7 +134,7 @@ div#skill{
 }
 
 
-/* PRODUCTS */
+/* PRODUCT */
 div#product{
   padding: 100px 0 100px 0;
   margin: 0;
@@ -148,6 +148,25 @@ div#product{
   text-decoration: none;
 }
 #product .deliverables p{
+  text-align: center;
+  font-family: serif;
+  font-size: 28px;
+}
+
+/* QUALIFICATION */
+div#qualification{
+  padding: 100px 0 100px 0;
+  margin: 0;
+}
+#qualification div.certification{
+  display: block;
+  margin: 0 5% 0 5%;
+}
+#qualification a{
+  color: #222;
+  text-decoration: none;
+}
+#qualification .certification p{
   text-align: center;
   font-family: serif;
   font-size: 28px;
@@ -175,7 +194,7 @@ div#contact{
   color: #999;
 }
 
-/* FOOTER*/
+/* FOOTER */
 footer{
   margin: 0;
   padding: 0;
@@ -279,7 +298,7 @@ footer p{
     font-size: 20px;
   }
 
-  /* PRODUCTS */
+  /* PRODUCT */
   div#product{
     padding: 100px 0 100px 0;
     margin: 0;
@@ -293,6 +312,13 @@ footer p{
     text-decoration: none;
   }
   #product .deliverables p{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+  }
+
+  /* QUALIFICATION */
+  #qualification .certification p{
     text-align: center;
     font-family: serif;
     font-size: 20px;
