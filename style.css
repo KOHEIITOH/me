@@ -3,7 +3,7 @@ body{
   margin: 0;
   padding: 0;
   background-color: #eee;
-  background: url("./img/texture.jpg") no-repeat center fixed;
+  background: url("./img/texture.png") no-repeat center fixed;
   background-size: cover;
   font-family: serif, Times New Roman, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif, Times New Roman, serif;
   line-height: 1.8;
@@ -22,7 +22,7 @@ body:before{
   z-index:-1;
   width:100%;
   height:120vh;
-  background:url("./img/texture.jpg") center no-repeat;
+  background:url("./img/texture.png") center no-repeat;
   background-size:cover;
 }
 
@@ -37,7 +37,7 @@ h1#header{
   font-family: serif;
   padding: 20px 0;
   margin: 0;
-  color: #000;
+  color: #fff;
 }
 header img{
   width: 100%;
@@ -57,6 +57,7 @@ h1.tit{
   font-family: serif;
   font-weight: bold;
   font-size: 54px;
+  color: #fff;
 }
 p.sub{
   text-align: center;
@@ -96,12 +97,13 @@ div#about{
   text-align: center;
   font-family: serif;
   font-size: 28px;
+  color: #fff;
 }
 #about.contact-text{
   text-align: center;
 }
 #about a{
-  color: #111;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -124,13 +126,14 @@ div#skill{
   margin: 0 5% 0 5%;
 }
 #skill a{
-  color: #222;
+  color: #fff;
   text-decoration: none;
 }
 #skill .machinelanguage p{
   text-align: center;
   font-family: serif;
   font-size: 28px;
+  color: #fff;
 }
 
 
@@ -144,13 +147,14 @@ div#product{
   margin: 0 5% 0 5%;
 }
 #product a{
-  color: #222;
+  color: #fff;
   text-decoration: none;
 }
 #product .deliverables p{
   text-align: center;
   font-family: serif;
   font-size: 28px;
+  color: #fff;
 }
 
 /* QUALIFICATION */
@@ -163,13 +167,14 @@ div#qualification{
   margin: 0 5% 0 5%;
 }
 #qualification a{
-  color: #222;
+  color: #fff;
   text-decoration: none;
 }
 #qualification .certification p{
   text-align: center;
   font-family: serif;
   font-size: 28px;
+  color: #fff;
 }
 
 /* CONTACT */
@@ -182,16 +187,41 @@ div#contact{
   margin: 0 5% 0 5%;
 }
 #contact a{
-  color: #222;
+  color: #fff;
   text-decoration: none;
 }
 #contact .forms p{
   text-align: center;
   font-family: serif;
   font-size: 28px;
+  color: #fff;
 }
 #contact a.secret{
   color: #999;
+}
+
+/* CONTACT BUTTON */
+.btn-luxury-matte {
+  display: inline-block;
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  border-radius: 4px;
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 22px 60px;
+  min-width: 300px;
+}
+.btn-luxury-matte:hover {
+  background-color: #333;
+  border-color: #666;
+  transform: translateY(-3px); /* 浮き上がる動き */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 /* FOOTER */
@@ -223,7 +253,7 @@ footer p{
     font-family: serif;
     padding: 10px 0;
     margin: 0;
-    color: #000;
+    color: #fff;
   }
   header img{
     width: 100%;
@@ -259,6 +289,7 @@ footer p{
     text-align: center;
     font-family: serif;
     font-size: 20px;
+    color: #fff;
   }
   #about img{
     display: block;
@@ -267,7 +298,7 @@ footer p{
     width: 160px;
   }
   #about a{
-    color: #111;
+    color: #fff;
     text-decoration: none;
   }
 
@@ -289,13 +320,14 @@ footer p{
     margin: 0 5% 0 5%;
   }
   #skill a{
-    color: #222;
+    color: #fff;
     text-decoration: none;
   }
   #skill .machinelanguage p{
     text-align: center;
     font-family: serif;
     font-size: 20px;
+    color: #fff;
   }
 
   /* PRODUCT */
@@ -308,13 +340,14 @@ footer p{
     margin: 0 5% 0 5%;
   }
   #product a{
-    color: #222;
+    color: #fff;
     text-decoration: none;
   }
   #product .deliverables p{
     text-align: center;
     font-family: serif;
     font-size: 20px;
+    color: #fff;
   }
 
   /* QUALIFICATION */
@@ -334,13 +367,22 @@ footer p{
     margin: 0 5% 0 5%;
   }
   #contact a{
-    color: #222;
+    color: #fff;
     text-decoration: none;
   }
   #contact .forms p{
     text-align: center;
     font-family: serif;
     font-size: 20px;
+    color: #fff;
+  }
+
+  /* CONTACT BUTTON */
+  .btn-luxury-matte {
+    font-size: 16px;
+    padding: 18px 40px;
+    width: 90%;
+    max-width: 350px;
   }
 
   /* FOOTER */
