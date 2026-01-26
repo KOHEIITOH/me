@@ -126,9 +126,8 @@ div#skill{
   margin: 0 5% 0 5%;
 }
 #skill a{
-  color: #222;
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
 }
 #skill .machinelanguage p{
   text-align: center;
