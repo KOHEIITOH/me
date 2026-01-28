@@ -1,3 +1,16 @@
+// リンク無効化関数
+function disableLink(selector, options = {}) {
+  const { message = '無効', setAria = true, preventTab = true, consoleLog = true } = options;
+  document.addEventListener('click', function (event) {
+    const linkElement = event.target.closest(selector);
+    if (!linkElement) return;
+    event.preventDefault();
+    if (setAria) linkElement.setAttribute('aria-disabled', 'true');
+    if (preventTab) linkElement.tabIndex = -1;
+    if (consoleLog) console.log(message);
+  });
+}
+
 window.addEventListener('load', function () {
   const profile_element = document.querySelector('.js-click-profile'),
         secret_entrance = document.querySelector('.js-secret');
@@ -45,6 +58,8 @@ window.addEventListener('load', function () {
     }
   });
 
+  // 無効リンク対策
+  disableLink('a[aria-disabled="true"]', { message: '無効' });
 
   // スムーススクロール
   // const scroll_links = document.querySelectorAll('a[href^="#"]');
