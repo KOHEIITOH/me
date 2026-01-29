@@ -51,6 +51,7 @@ window.addEventListener('load', function () {
     el.addEventListener('click', function (event) {
       event.preventDefault();
       console.log('無効');
+      alert('このリンクは現在無効です。');
     });
   });
 
