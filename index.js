@@ -45,6 +45,15 @@ window.addEventListener('load', function () {
     }
   });
 
+  // 無効設定
+  const invalidElements = document.querySelectorAll('.invalid');
+  invalidElements.forEach(function (el) {
+    el.addEventListener('click', function (event) {
+      event.preventDefault();
+      console.log('無効');
+      alert('このリンクは現在無効です。');
+    });
+  });
 
   // スムーススクロール
   // const scroll_links = document.querySelectorAll('a[href^="#"]');
