@@ -4,7 +4,7 @@ window.addEventListener('load', function () {
 
   profile_element.addEventListener("click", function() {
     const lf = "\n",
-          jp_text = "伊藤 光平（いとう こうへい）" + lf + "1998年3月9日生まれ" + lf + "埼玉県出身",
+          jp_text = "伊藤 光平（いとう こうへい）" + lf + "平成10年3月9日生まれ" + lf + "埼玉県出身",
           en_text = "KOHEI ITOH" + lf + "3/9/1998" + lf + "Saitama (JP)",
           text = jp_text + lf + lf + lf + en_text;
 
