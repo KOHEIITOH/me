@@ -1,4 +1,4 @@
-@charaset"utf-8";
+@charset "utf-8";
 body{
   margin: 0;
   padding: 0;
@@ -39,6 +39,11 @@ h1#header{
   padding: 20px 0;
   margin: 0;
   color: #fff;
+}
+header h1#header a{
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
 }
 header img{
   width: 100%;
@@ -100,7 +105,7 @@ div#about{
   font-size: 28px;
   color: #fff;
 }
-#about.contact-text{
+#about .contact-text{
   text-align: center;
 }
 #about a{
@@ -131,6 +136,27 @@ div#skill{
   text-decoration: none;
 }
 #skill .machinelanguage p{
+  text-align: center;
+  font-family: serif;
+  font-size: 28px;
+  color: #fff;
+}
+
+
+/* AI */
+div#ai{
+  padding: 100px 0 100px 0;
+  margin: 0;
+}
+#ai div.use-ai{
+  display: block;
+  margin: 0 5% 0 5%;
+}
+#ai a{
+  color: #fff;
+  text-decoration: none;
+}
+#ai .use-ai p{
   text-align: center;
   font-family: serif;
   font-size: 28px;
@@ -325,6 +351,18 @@ footer p{
     text-decoration: none;
   }
   #skill .machinelanguage p{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    color: #fff;
+  }
+
+
+  /* AI */
+  div#ai{
+    padding: 100px 0 100px 0;
+  }
+  #ai .use-ai p{
     text-align: center;
     font-family: serif;
     font-size: 20px;
