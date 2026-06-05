@@ -204,6 +204,38 @@ div#qualification{
   color: #fff;
 }
 
+/* SOCIAL */
+div#social{
+  padding: 100px 0 100px 0;
+  margin: 0;
+}
+#social div.social-links{
+  display: block;
+  margin: 0 5% 0 5%;
+}
+#social a{
+  color: #fff;
+  text-decoration: none;
+}
+#social .social-links p{
+  text-align: center;
+  font-family: serif;
+  font-size: 28px;
+  color: #fff;
+}
+
+/* DISABLED ITEMS */
+#product .deliverables p.invalid,
+#product .deliverables a.invalid,
+#social .social-links p.invalid,
+#social .social-links a.invalid{
+  color: #777;
+  font-style: italic;
+  text-decoration: line-through;
+  text-decoration-color: #666;
+  cursor: not-allowed;
+}
+
 /* CONTACT */
 div#contact{
   padding: 100px 0 100px 0;
@@ -394,6 +426,37 @@ footer p{
     text-align: center;
     font-family: serif;
     font-size: 20px;
+  }
+
+  /* SOCIAL */
+  #social .social-links p{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+  }
+
+  /* DISABLED ITEMS */
+  #product .deliverables p.invalid,
+  #product .deliverables a.invalid,
+  #social .social-links p.invalid,
+  #social .social-links a.invalid{
+    color: #777;
+    font-style: italic;
+    text-decoration: line-through;
+    text-decoration-color: #666;
+    cursor: not-allowed;
+  }
+
+  /* DISABLED ITEMS (mobile override) */
+  .main p.invalid,
+  .main a.invalid,
+  .main p[aria-disabled="true"],
+  .main a[aria-disabled="true"]{
+    color: #777 !important;
+    font-style: italic;
+    text-decoration: line-through;
+    text-decoration-color: #666;
+    cursor: not-allowed;
   }
 
   /* CONTACT */
