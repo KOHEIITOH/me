@@ -143,6 +143,27 @@ div#skill{
 }
 
 
+/* ARCHITECTURE */
+div#architecture{
+  padding: 100px 0 100px 0;
+  margin: 0;
+}
+#architecture div.patterns{
+  display: block;
+  margin: 0 5% 0 5%;
+}
+#architecture a{
+  color: #fff;
+  text-decoration: none;
+}
+#architecture .patterns p{
+  text-align: center;
+  font-family: serif;
+  font-size: 28px;
+  color: #fff;
+}
+
+
 /* AI */
 div#ai{
   padding: 100px 0 100px 0;
@@ -389,6 +410,25 @@ footer p{
     color: #fff;
   }
 
+
+  /* ARCHITECTURE */
+  div#architecture{
+    padding: 100px 0 100px 0;
+  }
+  #architecture div.patterns{
+    display: block;
+    margin: 0 5% 0 5%;
+  }
+  #architecture a{
+    color: #fff;
+    text-decoration: none;
+  }
+  #architecture .patterns p{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    color: #fff;
+  }
 
   /* AI */
   div#ai{
