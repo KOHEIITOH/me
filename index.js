@@ -55,22 +55,45 @@ window.addEventListener('load', function () {
     });
   });
 
-  // スムーススクロール
-  // const scroll_links = document.querySelectorAll('a[href^="#"]');
+  // ハンバーガーメニュー（右スライドドロワー型）
+  const nav_toggle   = document.querySelector('.js-nav-toggle'),
+        nav_overlay  = document.querySelector('.js-nav-overlay'),
+        nav_backdrop = document.querySelector('.js-nav-backdrop');
 
-  // scroll_links.forEach((scroll_link) => {
-  //   scroll_link.addEventListener("click", (e) => {
-  //     e.preventDefault();
+  function toggleNav(open) {
+    nav_toggle.classList.toggle('is-open', open);
+    nav_overlay.classList.toggle('is-open', open);
+    nav_backdrop.classList.toggle('is-open', open);
+    document.body.classList.toggle('nav-locked', open);
+    nav_toggle.setAttribute('aria-expanded', open);
+    nav_overlay.setAttribute('aria-hidden', !open);
+    nav_toggle.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
+  }
 
-  //     const href_link = scroll_link.getAttribute("href"),
-  //           target_content = document.getElementById(href_link.replace("#", "")),
-  //           header_height = document.querySelector('header').offsetHeight,
-  //           target_position = target_content.getBoundingClientRect().top + window.scrollY - header_height;
+  nav_toggle.addEventListener('click', function () {
+    toggleNav(!nav_overlay.classList.contains('is-open'));
+  });
 
-  //     window.scrollTo({
-  //       top: target_position,
-  //       behavior: "smooth",
-  //     });
-  //   });
-  // });
+  // メニュー内リンククリックで閉じる
+  nav_overlay.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () {
+      toggleNav(false);
+    });
+  });
+
+  // Escキーで閉じる
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && nav_overlay.classList.contains('is-open')) {
+      toggleNav(false);
+    }
+  });
+
+  // ドロワーの外側クリックで閉じる
+  document.addEventListener('click', function (e) {
+    if (nav_overlay.classList.contains('is-open')
+        && !nav_overlay.contains(e.target)
+        && !nav_toggle.contains(e.target)) {
+      toggleNav(false);
+    }
+  });
 });
