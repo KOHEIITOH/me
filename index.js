@@ -2,6 +2,77 @@ window.addEventListener('load', function () {
   const profile_element = document.querySelector('.js-click-profile'),
         secret_entrance = document.querySelector('.js-secret');
 
+  // ---- GLOBAL NAV ----
+  const globalNav    = document.getElementById('global-nav');
+  const navToggle    = document.getElementById('nav-toggle');
+  const navLinks     = document.getElementById('nav-links');
+  const navLinkItems = navLinks.querySelectorAll('a[href^="#"]');
+
+  // スクロールでナビ背景を濃くする
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 60) {
+      globalNav.classList.add('scrolled');
+    } else {
+      globalNav.classList.remove('scrolled');
+    }
+    updateActiveNavLink();
+  });
+
+  // ハンバーガーメニュー
+  navToggle.addEventListener('click', function () {
+    navToggle.classList.toggle('open');
+    navLinks.classList.toggle('open');
+  });
+
+  // ナビリンク: スムーズスクロール + モバイルメニューを閉じる
+  navLinkItems.forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      const href = link.getAttribute('href');
+      if (href === '#page-top') {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else if (href.startsWith('#')) {
+        const target = document.getElementById(href.replace('#', ''));
+        if (target) {
+          e.preventDefault();
+          const offset = globalNav.offsetHeight;
+          const top = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top: top, behavior: 'smooth' });
+        }
+      }
+      navToggle.classList.remove('open');
+      navLinks.classList.remove('open');
+    });
+  });
+
+  // ヒーローの「Explore ↓」もスムーズスクロール
+  const heroCta = document.querySelector('.hero-cta');
+  if (heroCta) {
+    heroCta.addEventListener('click', function (e) {
+      const href = heroCta.getAttribute('href');
+      const target = document.getElementById(href.replace('#', ''));
+      if (target) {
+        e.preventDefault();
+        const offset = globalNav.offsetHeight;
+        window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - offset, behavior: 'smooth' });
+      }
+    });
+  }
+
+  // セクションに応じたナビリンクのアクティブ化
+  function updateActiveNavLink() {
+    const sections = document.querySelectorAll('.main > div[id], #hero');
+    const offset   = globalNav.offsetHeight + 10;
+    let currentId  = '';
+    sections.forEach(function (section) {
+      const top = section.getBoundingClientRect().top;
+      if (top <= offset) currentId = section.id;
+    });
+    navLinkItems.forEach(function (link) {
+      link.classList.toggle('active', link.getAttribute('href') === '#' + currentId);
+    });
+  }
+
   profile_element.addEventListener("click", function() {
     const lf = "\n",
           jp_text = "伊藤 光平（いとう こうへい）" + lf + "平成10年3月9日生まれ" + lf + "埼玉県出身",
