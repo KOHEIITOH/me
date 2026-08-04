@@ -1,0 +1,9 @@
+# lychee link checker 設定
+# CI/月次チェック共通で除外するURL
+
+# サービス終了・接続不可・偽陽性対策
+exclude = [
+  "http://withcorona.ga/",                # .gaドメイン廃止
+  "https://tokyo53.tokyo/",               # 接続不可 (CI検出)
+  "https://rails8-qanda.onrender.com/",   # Render無料プランのスリープでタイムアウトしやすい
+]
