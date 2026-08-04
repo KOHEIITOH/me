@@ -1,8 +1,8 @@
 # lychee link checker 設定
 # CI/週次チェック共通で除外するURL
 
-# サービス終了済み (.gaドメイン廃止)
-# ※ 一旦コメントアウトしてCIの失敗を確認する
-# exclude = [
-#   "http://withcorona.ga/",
-# ]
+# サービス終了・接続不可
+exclude = [
+  "http://withcorona.ga/",   # .gaドメイン廃止
+  "https://tokyo53.tokyo/",  # 接続不可 (CI検出)
+]
