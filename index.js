@@ -66,7 +66,11 @@ window.addEventListener('load', function () {
     nav_backdrop.classList.toggle('is-open', open);
     document.body.classList.toggle('nav-locked', open);
     nav_toggle.setAttribute('aria-expanded', open);
-    nav_overlay.setAttribute('aria-hidden', !open);
+    if (open) {
+      nav_overlay.removeAttribute('inert');
+    } else {
+      nav_overlay.setAttribute('inert', '');
+    }
     nav_toggle.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
   }
 
