@@ -1,0 +1,7 @@
+{
+  "name": "me",
+  "private": true,
+  "devDependencies": {
+    "html-validate": "11.17.0"
+  }
+}

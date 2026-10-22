@@ -14,10 +14,13 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm ci
 
       - name: Run html-validate
-        run: npx --yes html-validate index.html
+        run: npm exec -- html-validate index.html
 
   link-check:
     name: Link Check
