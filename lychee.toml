@@ -6,4 +6,5 @@ exclude = [
   "http://withcorona.ga/",                # .gaドメイン廃止
   "https://tokyo53.tokyo/",               # 接続不可 (CI検出)
   "https://rails8-qanda.onrender.com/",   # Render無料プランのスリープでタイムアウトしやすい
+  "https://sukiari.jp/",                  # CIでタイムアウトしやすい
 ]
